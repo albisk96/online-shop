@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 
 import './checkout.styles.scss';
-import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selector';
+import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className='checkout-page'>
